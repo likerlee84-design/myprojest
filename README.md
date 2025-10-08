@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=" เว็บไซต์สำหรับการเรียนภาษา"> 
+    <meta name="keywords" content=" เรียนภาษา">I
+    <meta name="author" content="kerlee">
+    <title> เว็บของฉัน</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1{
+    font-size: 50px;
+    text-align: center;
+}
+li{
+    font-size: 40px;
+    text-align: center;
+}
+.logo{
+    background-color: rgb(251, 236, 30);
+    width:100px;
+    text-align: right;
+    height: 80px;
+align-content: center;
+border-radius: 300px;
+}
+.my{
+    font-size:60px ;
+    text-align: center;
+}
+.en{
+    font-size: 40px;
+    color: darkgreen;
+    text-align: center;
+    height: 0px;
+}
+  .b{
+    font-size: 120px;
+    text-align: center;
+    color: rgb(160, 161, 234);
+    
+}
+.i{
+    color: darkgreen;
+    display: flex;
+    width: 800px;
+    & li{
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+}
+.l{
+    font-size: 20px;
+    color: rgb(2, 101, 70);
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div>
+    <div class="logo">
+      <p>나의영어회화체크리스트</p>  
+    </div>
+    <div class="my">
+        <p>My</p>
+    </div>
+    <div class="en">
+<p>ENGLISCH<br>CHECKLIST</p>
+
+    </div>
+    <div class="b">
+<P>3768</P>
+    </div>
+</div>
+    <nav>
+        <ul class="i">
+            <li>빠짐없이</li>
+            <li>빈틈없이</li>
+            <li>완벽한기본기</li>
+        </ul>
+    </nav>
+    <nav class="l">
+<p>저자 Mr.Sun</p>
+    </nav>
+
+</body>
+</html>
